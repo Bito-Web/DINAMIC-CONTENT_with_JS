@@ -1,0 +1,45 @@
+:root {
+  /* COLORS */
+    --black-dark: #273746;
+    --black-light: #34495E;
+    --red-dark: #C0392B ;
+    --red-light: #E74C3C;
+    --purple-dark: #8E44AD;
+    --purple-light: #AF7AC5;
+    --blue-dark: #1F618D;
+    --blue-light: #3498DB;
+    --green-dark: #16A085;
+    --green-light: #52BE80;
+    --yellow-dark: #F1C40F;
+    --yellow-light: #FFEE58;
+    --orange-dark: #E67E22;
+    --orange-light: #F5B041;
+    --gray-dark: #717D7E;
+    --gray-light: #F0F3F4;
+
+    --white: #FFFFFF;
+    --black: #000000;
+    --yellow: #FFFF00;
+    --blue: #0000FF;
+    --green: #00FF00;
+    --red: #FF0000;
+
+    --cian: #00FFFF;
+    --magenta: #FF00FF;
+    --turquoise: #40E0D0;
+    --purple: #800080;
+    --lilac: #AA98A9;
+    --lavender: #E6E6FA;
+
+    /* FONT-SIZE */
+    --h1-desk: 2rem;
+    --h1-mobile: 1.75rem;
+    --h2-desk: 1.75rem;
+    --h2-mobile: 1.5rem;
+    --h3-desk: 1.5rem;
+    --h3-mobile: 1.25rem;
+    --h4-desk: 1.25rem;
+    --h4-mobile: 1rem;
+    --text-desk: 1rem;
+    --text-mobile: 0.75rem;
+  }

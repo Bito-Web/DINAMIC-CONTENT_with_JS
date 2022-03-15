@@ -1,0 +1,90 @@
+body h1 {
+  font-size: 3rem;
+}
+
+@media (max-width: 1024px) {
+  body h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body h1 {
+    font-size: 2rem;
+  }
+}
+
+body h2 {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1024px) {
+  body h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body h2 {
+    font-size: 1.75rem;
+  }
+}
+
+body h3 {
+  font-size: 2rem;
+}
+
+@media (max-width: 1024px) {
+  body h3 {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body h3 {
+    font-size: 1.5rem;
+  }
+}
+
+body h4 {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  body h4 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body h4 {
+    font-size: 1rem;
+  }
+}
+
+body p, body span, body a, body button {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 1024px) {
+  body p, body span, body a, body button {
+    font-size: 1rem;
+  }
+}
+
+body p, body span {
+  color: var(--black-light);
+}
+
+body h1, body h2, body h3, body h4 {
+  color: var(--black-dark);
+}
+
+body a {
+  color: var(--blue-light);
+}
+
+body a:hover {
+  color: var(--blue-dark);
+}
+/*# sourceMappingURL=default.css.map */

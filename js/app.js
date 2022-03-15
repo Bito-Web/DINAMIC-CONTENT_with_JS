@@ -19,17 +19,36 @@ const images = [
         alt: "Image _3"
     }
 ]
+const text_content = [
+    {
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu."
+    },
+    {
+        text: "Praesent ligula quam, posuere nec fermentum viverra, dignissim eget nisi. Sed non nisl turpis. Vivamus."
+    }
+] 
 
 // --- HTML TEMPLATES ---
 const banner = `
     <div>
         <h2>Banner Nº 1</h2>
         <img src="${images[0].url}" alt="${images[0].alt}"/>
+        <p>${text_content[0].text}</p>
+    </div>
+    <div class="half">
+        <div>
+            <img src="${images[0].url}" alt="${images[0].alt}"/>
+        </div>
+        <div>
+        <h2>Other content</h2>
+            <p>${text_content[0].text}</p>
+        </div>
     </div>
 `;
 const banner_2 = `
     <div>
         <h2>Banner Nº 2</h2>
+        <p>${text_content[1].text}</p>
         <img src="${images[1].url}" alt="${images[1].alt}"/>
     </div>
 `;
@@ -37,6 +56,15 @@ const banner_3 = `
     <div>
         <h2>Banner Nº 3</h2>
         <img src="${images[2].url}" alt="${images[2].alt}"/>
+    </div>
+    <div class="half">
+        <div>
+        <h2>Other content</h2>
+            <p>${text_content[0].text}</p>
+        </div>
+        <div>
+            <img src="${images[0].url}" alt="${images[0].alt}"/>
+        </div>
     </div>
 `;
 

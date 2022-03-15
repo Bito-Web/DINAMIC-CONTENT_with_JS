@@ -7,15 +7,15 @@ const _3 = document.querySelector("#_3");
 // --- DATA ---
 const images = [
     {
-        url: "https://i.redd.it/w3kr4m2fi3111.png",
+        url: "https://picsum.photos/id/201/1920/1080",
         alt: "Image _1"
     },
     {
-        url: "https://www.centraltest.com/sites/default/files/inline-images/matching-predictif-hp.png",
+        url: "https://picsum.photos/id/202/1920/1080",
         alt: "Image _2"
     },
     {
-        url: "https://www.mydiscprofile.com/en-gd/_images/homepage-free-personality-test.png",
+        url: "https://picsum.photos/id/203/1920/1080",
         alt: "Image _3"
     }
 ]
@@ -69,6 +69,10 @@ function itemClicked(item, object) {
 }
 
 // --- CALLBACK FUNCTIONS ---
+window.addEventListener("load", () => {
+    section.innerHTML =  banner;
+    itemSelectedStyles(_1, _2, _3);
+})
 itemClicked(_1, banner);
 itemClicked(_2, banner_2);
 itemClicked(_3, banner_3);
